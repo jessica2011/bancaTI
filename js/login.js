@@ -55,8 +55,7 @@ $(document).ready(function() {
         if (users.codigo === $dni.val() && users.clave === $password.val()) {
           console.log(users.login);
           validateUser = true;
-          alert('oh sii')
-          // $(location).attr('href', 'home.html');
+          $(location).attr('href', '../views/ListBank.html');
         }
       });
   });
