@@ -51,10 +51,7 @@
 .view-desktop {
   display: none;
 }
-.login .btn {
-  background-color: #00a542;
-  text-transform: none;
-}
+
 .login .attention li {
   display: inline-block;
 }
@@ -67,15 +64,6 @@
     display: block;
   }
   
-  .login .title {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #00a542;
-  }
-  .login .border {
-    border: 5px solid #00a542;
-    border-radius: 10px;
-    padding: 0 20px;
-  }
+
   
 }
