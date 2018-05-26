@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MILENE</title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <!-- CSS Personalizado -->
+  <link rel="stylesheet" href="css/login.css">
+</head>
+<body class="body">
+      <nav class="view-mobile semi-circulo">
+        <div class="login nav-wrapper flex">
+          <a href="#" class="brand-logo center"><img class="logo" src="assets/money.png"/>MILENE</a>
+        </div>
+      </nav>  
+      <div class="container login">
+        <div class="row">
+            <form class="col s10 m4 offset-s1 offset-m4 border">
+              <div class="row">
+                <br><br>
+                <div class="input-field col s8">
+                  <input id="dni" type="text" class="validate">
+                  <label for="dni">N° de documento</label>
+                </div>
+                <div class="input-field col s4">
+                  <select>
+                    <option value="selectdni" selected>DNI</option>
+                    <option value="2">Pasaporte</option>
+                    <option value="3">CE</option>
+                  </select>
+                </div>
+                <div class="input-field col s12">
+                  <input id="password" type="password" class="validate">
+                  <label for="password">Clave de usuario</label>
+                </div>  
+                <div class="input-field col s12">
+                  <input id="celular" type="number" class="validate">
+                  <label for="celular">Celular</label>
+                </div>       
+              </div>
+              <div class="row">
+                <div class="col s12 center-align">
+                    <a class=" waves-effect waves-light btn" disabled id="btnLogin">Ingresar</a>
+                </div>
+              </div>
+            </form>
+          </div>
+
+
+  <!-- Jquery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <!--Firebase-->
+  <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+  <script src="js/conexion-firebase.js"></script>
+  <script src="js/login.js"></script>
+</body>
+</html>

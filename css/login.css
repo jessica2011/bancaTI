@@ -1,0 +1,81 @@
+.body {
+  background-color: #81DAF5 !important;
+  color: black;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.semi-circulo {
+  background: #fff;
+  height: 100px
+}
+
+/* .logo {
+  width: 100px !important;
+} */
+
+.login .nav-wrapper {
+  background-color: #fff !important;
+}
+.login .brand-logo {
+  font-size: 1.5rem;
+  color: #118afa !important;
+}
+
+.login .brand-logo img {
+  width: 50px;
+  margin-right: 20px;
+}
+
+.login h4 {
+  padding: 1em 0;
+  font-weight: bold;
+  font-size: 24px;
+}
+.login .logo {
+  width: 30px;
+}
+
+.login .color-main {
+  color: #00a542;
+}
+.view-mobile {
+  display: block;
+}
+.view-desktop {
+  display: none;
+}
+.login .btn {
+  background-color: #00a542;
+  text-transform: none;
+}
+.login .attention li {
+  display: inline-block;
+}
+/* Vista destok */
+@media (min-width: 600px) {
+  .view-mobile {
+    display: none;
+  }
+  .view-desktop {
+    display: block;
+  }
+  
+  .login .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #00a542;
+  }
+  .login .border {
+    border: 5px solid #00a542;
+    border-radius: 10px;
+    padding: 0 20px;
+  }
+  
+}
