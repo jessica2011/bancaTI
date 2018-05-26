@@ -6,9 +6,11 @@ body {
     background-color: #fff;
 }
 .intro-text{
-  padding: 60px;
+  
+  padding: 40px;
 }
 h{
+  color:#118AFA;
   font-size: 20px;
 }
 .checkbox-color[type="checkbox"].filled-in:checked + label:after{
@@ -18,4 +20,10 @@ h{
 .btn-next{
     border: 2px solid #118AFA;
     background-color:#118AFA;
+    margin-top:10%;
 }
+.logo {
+    width: 35px;
+    margin-right: 15px;
+    margin-top: 10px;
+  }
