@@ -1,0 +1,103 @@
+﻿body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+/*input,
+select,
+textarea {
+    max-width: 280px;
+}*/
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+/*RSC 2014 Edit*/
+.input-group-addon-cs{
+    width:100px !important;
+    text-align:left;
+}
+
+/**/.input-group-addon-cm{
+    width:150px !important;
+    text-align:left;
+    padding-top:0 !important;
+    padding-bottom:0 !important;
+}
+.input-group-addon-cl{
+    width:130px !important;
+    text-align:left;
+}
+.combo-1{
+    width:400px !important;   
+}
+.texto-1{
+    width:400px !important;   
+}
+.texto-2{
+    width:260px !important;   
+}
+.texto-21{
+    width:250px !important;   
+}
+.texto-3{
+    width:700px !important;   
+}
+
+.banner-home{
+    opacity: .35;
+}
+
+
+/*
+.modal-body .input-group-sm{
+    height:1em !important;
+    vertical-align:middle;
+    text-align:left;
+}
+.col-xs-10 {
+    height:15px !important;
+    border:1px solid red;
+}
+.modal-body span {
+    border:1px solid blue;
+    height:20px !important;
+    line-height:20px !important;
+    background: none !important;
+    width:120px !important;
+    padding:0 !important;
+    margin:0 !important;
+    margin-left:0 !important;
+    font-family:Cambria !important;
+    bottom:0 !important;
+}
+    */

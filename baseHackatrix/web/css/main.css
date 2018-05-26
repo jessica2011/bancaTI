@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    color: #444;
+    background-color: #fafafc;
+}
+
+#m_main {
+    width: 90%;
+    margin: auto;
+}
+
+#m_top {
+    width: 100%;
+    margin-top: 5px;
+}
+
+#m_menu {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+#m_body {
+    width: 100%;
+}
+
+/* adicional para el menu */
+div#menu span.noactivo {
+    color: #999 !important;
+    cursor: default;
+}
+
+div#menu span.noactivo:hover {
+    color: #999 !important;
+}

@@ -1,0 +1,78 @@
+﻿.bottom {
+    padding-bottom:20px;
+}
+.yellow {
+    color: #ffd800;
+}
+.blue {
+    color: blue;
+}
+.blue-light {
+    color: dodgerblue;
+}
+.green {
+    color: green;
+}
+.red {
+    color: red;
+}
+.black {
+    color: #474949;
+}
+.gray {
+    color: gray;
+}
+.tabla {
+    border: 1px solid transparent;
+    border-color: #d9230f;
+}
+.cabecera {
+    background-color: rgb(217, 35, 15);  
+}
+.cabecera th {
+    color: white;
+    font-weight: normal;
+}
+.radio_encuesta {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.select_encuesta {
+    padding-top: 9px;
+}
+.modal .modal-body {
+    max-height: 420px;
+    overflow-y: auto;
+}
+
+modal .modal-body-mas {
+    max-height: 500px;
+    overflow-y: auto;
+}
+.body-error {
+    margin-top: 10px;
+    max-height: 100px;
+    overflow-y: auto;
+}
+.button-help {
+    width: 0;
+}
+.leyenda-item {
+    padding-right: 10px;
+}
+.modal-width {
+    width: 100% /*680px*/;
+}
+.modalmas-width {
+    width: 750px;
+}
+.modalmas-width-1 {
+    width: 850px;
+}
+.icon-large {
+    font-size:x-large;
+}
+.reset-padding {
+    padding: 0 0 0 0;
+}
+

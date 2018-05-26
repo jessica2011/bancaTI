@@ -1,0 +1,95 @@
+﻿.bottom {
+    padding-bottom:20px;
+}
+.yellow {
+    color: #ffd800;
+}
+.blue {
+    color: blue;
+}
+.green {
+    color: green;
+}
+.red {
+    color: red;
+}
+.orange {
+    color: orange;
+}
+.black {
+    color: #474949;
+}
+.gray {
+    color: gray;
+}
+.tabla {
+    border: 1px solid transparent;
+    border-color: #008cba;
+}
+.cabecera {
+    background-color: rgb(0, 140, 186);  
+}
+.cabecera th {
+    color: white;
+    font-weight: normal;
+}
+.radio_encuesta {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.select_encuesta {
+    padding-top: 9px;
+}
+.modal .modal-body {
+    max-height: 600px;
+    overflow-y: auto;
+}
+.body-error {
+    margin-top: 10px;
+    max-height: 100px;
+    overflow-y: auto;
+}
+.button-help {
+    width: 0;
+}
+.button-ml {
+    max-height: 31px;
+}
+.leyenda-item {
+    padding-right: 10px;
+}
+
+.modal-width {
+    width: 680px ; /*1100px !important 900px */
+    /*border:1px solid red !important;*/
+}
+.panet-heading-sm {
+    height: 35px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    font-weight: normal;
+}
+.text-error {
+    font-size: 12px;
+    font-weight: normal;
+    padding-top: 3px;
+}
+#loaderImage {
+    float:left;
+}
+.liLoaderImage {
+    padding-left:10px;
+}
+.file-input-name {
+    font-size: 12px;
+    font-weight: normal;
+    padding-top: 3px;
+    color: #008cba;
+}
+.progress {
+   margin-bottom:0;
+   height: 28px;
+}
+
+
