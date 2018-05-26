@@ -12,33 +12,51 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="">
-    <div class="intro-text">
-      <h3>Bancos Afiliados a Milene</h3>
+    <nav class="nav-extended light-blue">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo center"><img class="logo" src="../assets/moneyblanco.png"/>MILENE</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="asociarCuenta.html">Asociar Cuenta</a></li>
+            <li><a href="cuentaAsociadas.html">Cuentas Asociadas</a></li>
+            <li><a href="pagar.html">Pagar</a></li>
+            <li><a href="transferir.html">Tranferir</a></li>
+            <li><a href="otros.html">Otros</a></li>
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+            <li><a href="asociarCuenta.html">Asociar Cuenta</a></li>
+            <li><a href="cuentaAsociadas.html">Cuentas Asociadas</a></li>
+            <li><a href="pagar.html">Pagar</a></li>
+            <li><a href="transferir.html">Tranferir</a></li>
+            <li><a href="otros.html">Otros</a></li>
+          </ul>
+        </div>
+      </nav>
+  <div class="intro-text">
+    <h>Bancos Afiliados a Milene</h>
       <p>Elige un Banco para asociar tus cuentas</p>
       <p>
         <input type="checkbox" id="test5" />
-        <label for="test5">Red</label>
+        <label for="test5">Interbank</label>
       </p>
       <p>
-        <input type="checkbox" class="filled-in" id="filled-in-box" checked="checked" />
+        <input type="checkbox" class="filled-in checkbox-color" id="filled-in-box" checked="checked" />
         <label for="filled-in-box">BCP</label>
       </p>
       <p>
-        <input type="checkbox" class="filled-in" id="filled-in-box" checked="checked" />
+        <input type="checkbox" class="filled-in checkbox-color" id="filled-in-box" checked="checked" />
         <label for="filled-in-box">CrediScotia</label>
       </p>
       <p>
-        <input type="checkbox" class="filled-in" id="filled-in-box" checked="checked" />
+        <input type="checkbox" class="filled-in checkbox-color" id="filled-in-box" checked="checked" />
         <label for="filled-in-box">MiBanco</label>
       </p>
     </form>
+    <div class="right-align">
+        <a class="btn-next waves-effect waves-light btn">Siguiente</a>
     </div>
-  </div>
-
-  
-    
-   <!-- Jquery -->
+    </div>
+  <!-- Jquery -->
    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
    <!-- Compiled and minified JavaScript -->
    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
