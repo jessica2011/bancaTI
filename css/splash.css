@@ -1,0 +1,19 @@
+.splash {
+  background-color: #00a542;
+}
+/* Altura del viewport */
+.vh100 {
+  height: 100vh;
+}
+/* Contenedor centrado con Flex */
+.container-flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* Elementos al centro */
+.item-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
