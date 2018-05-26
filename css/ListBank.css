@@ -8,7 +8,14 @@ body {
 .intro-text{
   padding: 100px;
 }
-h3 {
-  font-size: 20 px;
+h{
+  font-size: 20px;
 }
- 
+.checkbox-color[type="checkbox"].filled-in:checked + label:after{
+    border: 2px solid #118AFA;
+    background-color:#118AFA;
+}
+.btn-next{
+    border: 2px solid #118AFA;
+    background-color:#118AFA;
+}
